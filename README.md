@@ -8,3 +8,4 @@
 - JS: sintaxe para herdarmos de uma classe (ex: class nome extends nome);
 - super constructor (ex: fazer referência a classe mãe que esta extendendo);
 - método e propriedades privadas e protegidas;
+- throw new Erro("mensagem"); 
