@@ -26,7 +26,7 @@ export class Conta {
 
     // MÉTODO ABSTRATO
     sacar(valor) {
-        throw new Error("O método Sacar da conta é abstrato")
+        throw new Error("O método Sacar da conta é abstrato");
     }
 
     _sacar(valor, taxa) {
@@ -46,9 +46,5 @@ export class Conta {
     tranferir(valor, conta) {
         const valorSacado = this.sacar(valor);
         conta.depositar(valorSacado);
-    }
-
-    teste() {
-        console.log("teste na classe conta");
     }
 }
