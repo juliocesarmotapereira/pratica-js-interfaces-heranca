@@ -11,3 +11,5 @@
 - throw new Erro("mensagem"); 
 - classes abstratas são pensadas de forma que elas apenas possam ser herdadas por outras;
 - métodos abstratos devem ser sobrescritos pelas classes filhas; 
+- herança, boas práticas de código e encapsulamento, polimorfismo, métodos estáticos;
+- operador in, operador instanceOf, proteger nossos sistemas, interfaces padronizadas, Ducky Type.
